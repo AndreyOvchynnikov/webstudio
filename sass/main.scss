@@ -1,0 +1,27 @@
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./utils/backdrop";
+@import "./utils/is-hidden.scss";
+@import "./utils/mixins";
+
+@import "./base/common";
+@import "./base/conteiner";
+
+@import "./components/logo";
+@import "./components/modal-btn";
+@import "./components/mobile-menu";
+@import "./components/social-link";
+@import "./components/modal-window";
+@import "./components/modal-form";
+@import "./components/email-form";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/benefits";
+@import "./layout/development";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+
+
+

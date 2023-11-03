@@ -1,0 +1,73 @@
+.conteiner {
+    padding-left: 15px;
+    padding-right: 15px;
+        .header &{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+}
+@media screen and (min-width: 480px) {
+    .conteiner {
+        width: 480px;  
+        margin: 0 auto;            
+    }
+    
+}
+@media screen and (min-width: 768px) {
+    .conteiner{
+        width: 768px;
+
+        .footer &{
+        padding-left: 76px;
+        padding-right: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: center;
+    }
+    }
+    
+}
+@media screen and (min-width: 1200px) {
+    .conteiner{
+        width: 1200px;
+
+            .header &{
+                align-items: baseline;
+            }
+            .footer &{
+                padding-left: 15px;
+                padding-right: 15px;
+                justify-content: flex-start;
+                flex-wrap: nowrap;
+            }
+    }
+}
+
+// .conteiner{
+//     margin: 0 auto;
+//     width: 1200px;
+
+//     .header &{
+//     display: flex;
+//     align-items: center;
+//     padding: 0 15px;
+//     border-top: none;
+//     min-height: 80px;
+//     }
+//     .hero &{
+//     padding-top: 200px;
+//     padding-bottom: 200px;  
+//     }
+//     .team &,
+//     .clients &,
+//     .portfolio &{
+//     padding: 94px 15px;
+//     }
+//     .footer &{
+//     padding: 60px 15px;
+//     display: flex;
+//     align-items: baseline;
+//     }
+// }
