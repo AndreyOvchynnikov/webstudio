@@ -1,1 +1,1 @@
-# homework-8
+# Website for web studio. Using html + sass
